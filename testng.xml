@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SpeandAnalytics">
+	<listeners>
+		<listener class-name="com.cfsa.qa.tests.TestFrameWork" />
+	</listeners>
+	<!--<test name="ClientTests" preserve-order="true">-->
+		<!--<classes>-->
+			<!--<class name="com.cfsa.qa.tests.ClientTest">-->
+				<!--<methods>-->
+					<!--<include name="testVerifyCreateNewClient" />-->
+					<!--<include name="testVerifyClientCancelBtn" />-->
+					<!--<include name="testVerifySelectIndustryDropdownValues" />-->
+					<!--<include name="testVerifyCountrySpecificMultiSelectValues" />-->
+					<!--<include name="testVerifySelectsectorDropdownValues" />-->
+				<!--</methods>-->
+			<!--</class>-->
+		<!--</classes>-->
+	<!--</test>&lt;!&ndash; test &ndash;&gt;-->
+	<test name="Test1" preserve-order="true">
+		<classes>
+			<class name="com.cfsa.qa.tests.Test1">
+				<methods>
+					<include name="testcase1" />
+					<!--<include name="testcase2" />-->
+					<!--<include name="testCase3" />-->
+					<!--<include name="testCase4" />-->
+				</methods>
+			</class>
+		</classes>
+	</test><!-- test -->
+</suite> <!-- Suite -->
